@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+  font-family: 'Itim', cursive;
+  background: linear-gradient(135deg, #ffd6e8, #e0c3fc);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  width: 340px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  animation: fadeIn 1s;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  text-align: center;
+}
+
+button {
+  margin: 8px 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #ff9acb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff6fae;
+}
+
+.confession-text {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: 'Itim', cursive;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
